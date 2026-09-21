@@ -7,13 +7,13 @@ var TEAM=[
     {name:"Vira Tsupriian", role:"Board", photo:"member-01.jpg", li:"https://www.linkedin.com/in/vira-tsupriian/"}
   ]},
   {group:"Members", people:[
-    {name:"Alejandro Hernandez", role:"Member", photo:"member-02.jpg", li:"https://www.linkedin.com/in/alejandro-hernandez-83a620397/"},
-    {name:"Dennis Favier", role:"Member", photo:"member-03.jpg", li:"https://www.linkedin.com/in/dennis-favier-8337973b7/"},
-    {name:"Felipe Varallo", role:"Member", photo:"member-11.jpg", li:"https://www.linkedin.com/in/felipe-salles-varallo/"},
-    {name:"Joaquin Blanco", role:"Member", photo:"member-07.jpg", li:""},
-    {name:"Noe TouBoul", role:"Member", photo:"member-09.jpg", li:"https://www.linkedin.com/in/noetouboul/"},
-    {name:"Osiris Guerra", role:"Member", photo:"member-05.jpg", li:"https://www.linkedin.com/in/osiris-guerra-2a58ba165/"},
-    {name:"Simon Lancin", role:"Member", photo:"member-10.jpg", li:""}
+    {name:"Alejandro Hernandez", role:"Healthcare Analyst", photo:"member-02.jpg", li:"https://www.linkedin.com/in/alejandro-hernandez-83a620397/"},
+    {name:"Dennis Favier", role:"Artificial Intelligence Analyst", photo:"member-03.jpg", li:"https://www.linkedin.com/in/dennis-favier-8337973b7/"},
+    {name:"Felipe Varallo", role:"Macroeconomic Analyst", photo:"member-11.jpg", li:"https://www.linkedin.com/in/felipe-salles-varallo/"},
+    {name:"Joaquin Blanco", role:"Real Estate Analyst", photo:"member-07.jpg", li:"https://www.linkedin.com/in/joaquin-blanco-0360a1410/"},
+    {name:"Noe TouBoul", role:"Financial Services Analyst", photo:"member-09.jpg", li:"https://www.linkedin.com/in/noetouboul/"},
+    {name:"Osiris Guerra", role:"Senior Technology Analyst", photo:"member-05.jpg", li:"https://www.linkedin.com/in/osiris-guerra-2a58ba165/"},
+    {name:"Simon Lancri", role:"Crypto Analyst", photo:"member-10.jpg", li:"https://www.linkedin.com/in/simon-lancri-a127b8433/"}
   ]},
   {group:"Alumni", people:[
     {name:"Andrew Esposito", role:"Alumni", photo:"member-12.jpg", li:"https://www.linkedin.com/in/andrew-esposito-fin/"},
