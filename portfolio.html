@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Portfolio · SMIF Miami Dade College</title>
-<meta name="description" content="SMIF portfolio — Q2 2026 and Q4 2025 performance, holdings, and sector allocation for the Miami Dade College Student Managed Investment Fund." />
+<meta name="description" content="SMIF portfolio — Q2 2026, Q1 2026, and Q4 2025 performance, holdings, and sector allocation for the Miami Dade College Student Managed Investment Fund." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -43,6 +43,7 @@
   <div class="wrap">
     <div class="q-tabs" role="tablist" aria-label="Report quarter">
       <button type="button" role="tab" class="q-tab active" data-q="q2-2026" aria-selected="true">Q2 2026</button>
+      <button type="button" role="tab" class="q-tab" data-q="q1-2026" aria-selected="false">Q1 2026</button>
       <button type="button" role="tab" class="q-tab" data-q="q4-2025" aria-selected="false">Q4 2025</button>
     </div>
 
@@ -109,6 +110,55 @@
     <p class="disclaimer">Figures are from the fund's Q2 2026 report, as of June 30, 2026. The fund returned approximately +22.00% for the quarter versus approximately +15.20% for the S&amp;P 500. Value at Risk (VaR) is approximately 12% on a quarterly horizon at the 95% confidence level. SMIF is an experiential-learning program of Miami Dade College; all positions are held for educational purposes and nothing here is investment advice.</p>
     </div>
 
+    <div class="q-panel" id="q1-2026" data-chart="allocChartQ1" role="tabpanel" hidden>
+    <div class="metrics reveal">
+      <div class="metric"><div class="lbl">Fund NAV</div><div class="val gold">$86,018</div><div class="sub">as of Mar 31, 2026</div></div>
+      <div class="metric"><div class="lbl">Q1 2026 return</div><div class="val down">−10.00%</div><div class="sub">from $95,585 in Q4</div></div>
+      <div class="metric"><div class="lbl">S&amp;P 500 · Q1</div><div class="val">−4.3%</div><div class="sub">fund trailed by ~5.7 pts</div></div>
+      <div class="metric"><div class="lbl">Cash weighting</div><div class="val">30%</div><div class="sub">no trades this quarter</div></div>
+    </div>
+
+    <div class="pf-2col">
+      <div class="reveal">
+        <h3 style="font-size:22px;margin-bottom:22px">Holdings</h3>
+        <table class="holdings">
+          <thead><tr><th>Ticker</th><th class="r">Units</th><th class="r">Price</th><th class="r">Market value</th><th class="r">Q1 change</th></tr></thead>
+          <tbody>
+            <tr><td class="tk">AMD</td><td class="r">45</td><td class="r">$203.43</td><td class="r">$9,154</td><td class="r neg">−5.0%</td></tr>
+            <tr><td class="tk">AMZN</td><td class="r">32</td><td class="r">$208.27</td><td class="r">$6,665</td><td class="r neg">−9.8%</td></tr>
+            <tr><td class="tk">BABA</td><td class="r">50</td><td class="r">$125.46</td><td class="r">$6,273</td><td class="r neg">−14.4%</td></tr>
+            <tr><td class="tk">UNH</td><td class="r">20</td><td class="r">$270.59</td><td class="r">$5,412</td><td class="r neg">−18.0%</td></tr>
+            <tr><td class="tk">MELI</td><td class="r">3</td><td class="r">$1,729.02</td><td class="r">$5,187</td><td class="r neg">−14.2%</td></tr>
+            <tr><td class="tk">ET</td><td class="r">230</td><td class="r">$19.30</td><td class="r">$4,439</td><td class="r pos">+17.0%</td></tr>
+            <tr><td class="tk">ARGX</td><td class="r">6</td><td class="r">$730.25</td><td class="r">$4,382</td><td class="r neg">−13.2%</td></tr>
+            <tr><td class="tk">NU</td><td class="r">280</td><td class="r">$14.37</td><td class="r">$4,024</td><td class="r neg">−14.2%</td></tr>
+            <tr><td class="tk">CELH</td><td class="r">110</td><td class="r">$35.48</td><td class="r">$3,903</td><td class="r neg">−22.4%</td></tr>
+            <tr><td class="tk">CRM</td><td class="r">20</td><td class="r">$186.67</td><td class="r">$3,733</td><td class="r neg">−29.5%</td></tr>
+            <tr><td class="tk">JEPQ</td><td class="r">65</td><td class="r">$55.52</td><td class="r">$3,609</td><td class="r neg">−4.5%</td></tr>
+            <tr><td class="tk">ZS</td><td class="r">24</td><td class="r">$140.29</td><td class="r">$3,367</td><td class="r neg">−37.6%</td></tr>
+            <tr><td class="tk">Cash</td><td class="r">—</td><td class="r">—</td><td class="r">$25,871</td><td class="r pos">+1.2%</td></tr>
+            <tr class="total"><td class="tk">Fund NAV</td><td class="r"></td><td class="r"></td><td class="r">$86,018</td><td class="r neg">−10.00%</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:12.5px;color:rgba(255,255,255,.45);margin-top:14px">Change shown is the position's Q1 2026 price move. No portfolio transactions occurred during Q1 2026.</p>
+      </div>
+
+      <div class="reveal">
+        <div class="donut-wrap">
+          <h3>Sector allocation</h3>
+          <canvas id="allocChartQ1" height="220"></canvas>
+          <ul class="donut-legend" id="allocLegendQ1"></ul>
+        </div>
+        <div class="movers">
+          <div class="mover win"><div class="h">Top performers</div><div class="tags"><span>ET</span></div></div>
+          <div class="mover lag"><div class="h">Laggards</div><div class="tags"><span>ZS</span><span>CRM</span><span>CELH</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="disclaimer">Figures are from the fund's Q1 2026 report, as of March 31, 2026; sector allocation is calculated from the holdings above. The fund returned approximately −10.0% for the quarter versus approximately −4.3% for the S&amp;P 500. Value at Risk (VaR) is approximately 12% on a quarterly horizon at the 95% confidence level. SMIF is an experiential-learning program of Miami Dade College; all positions are held for educational purposes and nothing here is investment advice.</p>
+    </div>
+
     <div class="q-panel" id="q4-2025" data-chart="allocChart" role="tabpanel" hidden>
     <div class="metrics reveal">
       <div class="metric"><div class="lbl">Fund NAV</div><div class="val gold">$95,585</div><div class="sub">as of Dec 31, 2025</div></div>
@@ -170,6 +220,7 @@
       </div>
       <div style="display:flex;gap:14px;flex-wrap:wrap">
         <a href="assets/reports/SMIF-Q2-2026-Report.pdf" download class="btn btn-dark">Download Q2 2026 report</a>
+        <a href="assets/reports/SMIF-Q1-2026-Report.pdf" download class="btn btn-dark">Download Q1 2026 report</a>
         <a href="assets/reports/SMIF-Q4-2025-Report.pdf" download class="btn btn-dark">Download Q4 2025 report</a>
       </div>
     </div>
@@ -201,6 +252,16 @@
       ['Energy',4,'#a8873f'],
       ['Unclassified',4,'#8a94a6']
     ]},
+    allocChartQ1:{legend:'allocLegendQ1',data:[
+      ['Cash',30.1,'#c2a15a'],
+      ['Consumer discretionary',21.1,'#1d3355'],
+      ['Information Technology',18.9,'#3d6098'],
+      ['Healthcare',11.4,'#7c95bd'],
+      ['Energy',5.2,'#a8873f'],
+      ['Financials',4.7,'#5b7bb0'],
+      ['Consumer staples',4.5,'#d9b877'],
+      ['Equity ETF (JEPQ)',4.2,'#8a94a6']
+    ]},
     allocChartQ2:{legend:'allocLegendQ2',data:[
       ['Cash',30.1,'#c2a15a'],
       ['Information Technology',25.8,'#3d6098'],
@@ -231,7 +292,7 @@
   }
   tabs.forEach(function(t){t.onclick=function(){show(t.dataset.q)}});
   var h=location.hash.slice(1);
-  show(h==='q4-2025'?'q4-2025':'q2-2026');
+  show(['q1-2026','q4-2025'].indexOf(h)>-1?h:'q2-2026');
 })();
 </script>
 </body>
