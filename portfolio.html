@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Portfolio · SMIF Miami Dade College</title>
-<meta name="description" content="SMIF portfolio — Q4 2025 performance, holdings, and sector allocation for the Miami Dade College Student Managed Investment Fund." />
+<meta name="description" content="SMIF portfolio — Q2 2026 and Q4 2025 performance, holdings, and sector allocation for the Miami Dade College Student Managed Investment Fund." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -32,15 +32,84 @@
 
 <div class="page-hero">
   <div class="wrap">
-    <span class="eyebrow light">Our portfolio · Q4 2025</span>
+    <span class="eyebrow light">Our portfolio · Quarterly results</span>
     <h1>Managed with discipline.<br>Reported with transparency.</h1>
-    <p>Our investment team researches ideas, debates them, and manages positions with a long-term view. Below is the fund as of December 31, 2025.</p>
+    <p>Our investment team researches ideas, debates them, and manages positions with a long-term view. Choose a quarter below to see the fund’s holdings, performance, and allocation. The latest report is Q2 2026, as of June 30, 2026.</p>
     <div class="crumb"><a href="index.html">Home</a> / Portfolio</div>
   </div>
 </div>
 
 <section class="portfolio" style="padding-top:80px">
   <div class="wrap">
+    <div class="q-tabs" role="tablist" aria-label="Report quarter">
+      <button type="button" role="tab" class="q-tab active" data-q="q2-2026" aria-selected="true">Q2 2026</button>
+      <button type="button" role="tab" class="q-tab" data-q="q4-2025" aria-selected="false">Q4 2025</button>
+    </div>
+
+    <div class="q-panel" id="q2-2026" data-chart="allocChartQ2" role="tabpanel">
+    <div class="metrics reveal">
+      <div class="metric"><div class="lbl">Fund NAV</div><div class="val gold">$104,910</div><div class="sub">as of Jun 30, 2026</div></div>
+      <div class="metric"><div class="lbl">Q2 2026 return</div><div class="val up">+22.00%</div><div class="sub">from $86,018 in Q1</div></div>
+      <div class="metric"><div class="lbl">S&amp;P 500 · Q2</div><div class="val">+15.20%</div><div class="sub">fund beat by ~6.76 pts</div></div>
+      <div class="metric"><div class="lbl">Cash weighting</div><div class="val">30%</div><div class="sub">liquidity maintained</div></div>
+    </div>
+
+    <div class="pf-2col">
+      <div class="reveal">
+        <h3 style="font-size:22px;margin-bottom:22px">Holdings</h3>
+        <table class="holdings">
+          <thead><tr><th>Ticker</th><th class="r">Units</th><th class="r">Price</th><th class="r">Market value</th><th class="r">Q2 change</th></tr></thead>
+          <tbody>
+            <tr><td class="tk">AMD</td><td class="r">30</td><td class="r">$580.91</td><td class="r">$17,427</td><td class="r pos">+185.6%</td></tr>
+            <tr><td class="tk">UNH</td><td class="r">20</td><td class="r">$415.63</td><td class="r">$8,313</td><td class="r pos">+53.6%</td></tr>
+            <tr><td class="tk">AMZN</td><td class="r">32</td><td class="r">$238.34</td><td class="r">$7,627</td><td class="r pos">+14.4%</td></tr>
+            <tr><td class="tk">SMTC</td><td class="r">40</td><td class="r">$161.85</td><td class="r">$6,474</td><td class="r pos">+57.0%</td></tr>
+            <tr><td class="tk">ARGX</td><td class="r">6</td><td class="r">$927.77</td><td class="r">$5,567</td><td class="r pos">+27.0%</td></tr>
+            <tr><td class="tk">MELI</td><td class="r">3</td><td class="r">$1,697.39</td><td class="r">$5,092</td><td class="r neg">−1.8%</td></tr>
+            <tr><td class="tk">BABA</td><td class="r">50</td><td class="r">$95.98</td><td class="r">$4,799</td><td class="r neg">−23.5%</td></tr>
+            <tr><td class="tk">JEPQ</td><td class="r">65</td><td class="r">$61.46</td><td class="r">$3,995</td><td class="r pos">+10.7%</td></tr>
+            <tr><td class="tk">RTX</td><td class="r">20</td><td class="r">$189.73</td><td class="r">$3,795</td><td class="r pos">+8.4%</td></tr>
+            <tr><td class="tk">NU</td><td class="r">280</td><td class="r">$13.36</td><td class="r">$3,741</td><td class="r neg">−7.0%</td></tr>
+            <tr><td class="tk">VRT</td><td class="r">10</td><td class="r">$334.82</td><td class="r">$3,348</td><td class="r pos">+2.1%</td></tr>
+            <tr><td class="tk">CRM</td><td class="r">20</td><td class="r">$156.66</td><td class="r">$3,133</td><td class="r neg">−16.1%</td></tr>
+            <tr><td class="tk">Cash</td><td class="r">—</td><td class="r">—</td><td class="r">$31,600</td><td class="r pos">+22.1%</td></tr>
+            <tr class="total"><td class="tk">Fund NAV</td><td class="r"></td><td class="r"></td><td class="r">$104,910</td><td class="r pos">+22.0%</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:12.5px;color:rgba(255,255,255,.45);margin-top:14px">Change shown is the position's Q2 2026 price move; for positions opened on May 1 (SMTC, VRT, RTX) it is measured from the purchase price.</p>
+
+        <h3 style="font-size:22px;margin:40px 0 22px">Q2 2026 trades</h3>
+        <table class="holdings">
+          <thead><tr><th>Date</th><th>Ticker</th><th>Action</th><th class="r">Units</th><th class="r">Price</th></tr></thead>
+          <tbody>
+            <tr><td>May 1</td><td class="tk">AMD</td><td>Sell</td><td class="r">15</td><td class="r">$352.55</td></tr>
+            <tr><td>May 1</td><td class="tk">ZS</td><td>Sell</td><td class="r">24</td><td class="r">$134.00</td></tr>
+            <tr><td>May 1</td><td class="tk">ET</td><td>Sell</td><td class="r">230</td><td class="r">$19.98</td></tr>
+            <tr><td>May 1</td><td class="tk">VRT</td><td>Buy</td><td class="r">10</td><td class="r">$327.95</td></tr>
+            <tr><td>May 1</td><td class="tk">SMTC</td><td>Buy</td><td class="r">40</td><td class="r">$103.08</td></tr>
+            <tr><td>May 1</td><td class="tk">RTX</td><td>Buy</td><td class="r">20</td><td class="r">$174.96</td></tr>
+            <tr><td>Jun 26</td><td class="tk">CELH</td><td>Sell</td><td class="r">110</td><td class="r">$29.85</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="reveal">
+        <div class="donut-wrap">
+          <h3>Sector allocation</h3>
+          <canvas id="allocChartQ2" height="220"></canvas>
+          <ul class="donut-legend" id="allocLegendQ2"></ul>
+        </div>
+        <div class="movers">
+          <div class="mover win"><div class="h">Top performers</div><div class="tags"><span>AMD</span><span>SMTC</span><span>UNH</span></div></div>
+          <div class="mover lag"><div class="h">Laggards</div><div class="tags"><span>BABA</span><span>CRM</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="disclaimer">Figures are from the fund's Q2 2026 report, as of June 30, 2026. The fund returned approximately +22.00% for the quarter versus approximately +15.20% for the S&amp;P 500. Value at Risk (VaR) is approximately 12% on a quarterly horizon at the 95% confidence level. SMIF is an experiential-learning program of Miami Dade College; all positions are held for educational purposes and nothing here is investment advice.</p>
+    </div>
+
+    <div class="q-panel" id="q4-2025" data-chart="allocChart" role="tabpanel" hidden>
     <div class="metrics reveal">
       <div class="metric"><div class="lbl">Fund NAV</div><div class="val gold">$95,585</div><div class="sub">as of Dec 31, 2025</div></div>
       <div class="metric"><div class="lbl">Q4 2025 return</div><div class="val down">−0.92%</div><div class="sub">from $96,476 in Q3</div></div>
@@ -87,6 +156,7 @@
     </div>
 
     <p class="disclaimer">Figures are from the fund's Q4 2025 report, as of December 31, 2025. The fund returned −0.92% for the quarter versus +2.70% for the S&amp;P 500. Value at Risk (VaR) is approximately 12% on a quarterly horizon at the 95% confidence level. SMIF is an experiential-learning program of Miami Dade College; all positions are held for educational purposes and nothing here is investment advice.</p>
+    </div>
   </div>
 </section>
 
@@ -94,11 +164,14 @@
   <div class="wrap">
     <div class="reveal" style="display:flex;gap:30px;align-items:center;justify-content:space-between;flex-wrap:wrap">
       <div style="max-width:520px">
-        <span class="eyebrow">Quarterly report</span>
-        <h2 style="font-size:clamp(28px,3.4vw,40px);margin:16px 0 12px">Read the full Q4 2025 report.</h2>
-        <p style="color:var(--muted);font-size:16px">Portfolio summary, holdings, performance commentary, risk, and sector allocation — the complete report from our investment team.</p>
+        <span class="eyebrow">Quarterly reports</span>
+        <h2 style="font-size:clamp(28px,3.4vw,40px);margin:16px 0 12px">Read the full quarterly reports.</h2>
+        <p style="color:var(--muted);font-size:16px">Portfolio summary, holdings, performance commentary, risk, and sector allocation — the complete reports from our investment team.</p>
       </div>
-      <a href="assets/reports/SMIF-Q4-2025-Report.pdf" download class="btn btn-dark">Download the report</a>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="assets/reports/SMIF-Q2-2026-Report.pdf" download class="btn btn-dark">Download Q2 2026 report</a>
+        <a href="assets/reports/SMIF-Q4-2025-Report.pdf" download class="btn btn-dark">Download Q4 2025 report</a>
+      </div>
     </div>
   </div>
 </section>
@@ -117,20 +190,48 @@
 <script src="assets/js/main.js"></script>
 <script>
 (function(){
-  var el=document.getElementById('allocChart'); if(!el||!window.Chart) return;
-  var data=[
-    ['Cash',27,'#c2a15a'],
-    ['Consumer discretionary',22,'#1d3355'],
-    ['Information Technology',21,'#3d6098'],
-    ['Healthcare',12,'#7c95bd'],
-    ['Consumer staples',5,'#d9b877'],
-    ['Financials',5,'#5b7bb0'],
-    ['Energy',4,'#a8873f'],
-    ['Unclassified',4,'#8a94a6']
-  ];
-  new Chart(el,{type:'doughnut',data:{labels:data.map(d=>d[0]),datasets:[{data:data.map(d=>d[1]),backgroundColor:data.map(d=>d[2]),borderColor:'#14233b',borderWidth:2}]},
-    options:{cutout:'62%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.parsed+'%'}}}}});
-  document.getElementById('allocLegend').innerHTML=data.map(d=>'<li><i style="background:'+d[2]+'"></i>'+d[0]+'<span>'+d[1]+'%</span></li>').join('');
+  var sets={
+    allocChart:{legend:'allocLegend',data:[
+      ['Cash',27,'#c2a15a'],
+      ['Consumer discretionary',22,'#1d3355'],
+      ['Information Technology',21,'#3d6098'],
+      ['Healthcare',12,'#7c95bd'],
+      ['Consumer staples',5,'#d9b877'],
+      ['Financials',5,'#5b7bb0'],
+      ['Energy',4,'#a8873f'],
+      ['Unclassified',4,'#8a94a6']
+    ]},
+    allocChartQ2:{legend:'allocLegendQ2',data:[
+      ['Cash',30.1,'#c2a15a'],
+      ['Information Technology',25.8,'#3d6098'],
+      ['Consumer discretionary',16.7,'#1d3355'],
+      ['Healthcare',13.2,'#7c95bd'],
+      ['Industrials',6.8,'#d9b877'],
+      ['Equity ETF (JEPQ)',3.8,'#a8873f'],
+      ['Financials',3.6,'#5b7bb0']
+    ]}
+  };
+  var drawn={};
+  function draw(id){
+    var el=document.getElementById(id), cfg=sets[id];
+    if(drawn[id]||!el||!window.Chart||!cfg) return; drawn[id]=true;
+    var data=cfg.data;
+    new Chart(el,{type:'doughnut',data:{labels:data.map(d=>d[0]),datasets:[{data:data.map(d=>d[1]),backgroundColor:data.map(d=>d[2]),borderColor:'#14233b',borderWidth:2}]},
+      options:{cutout:'62%',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>' '+c.label+': '+c.parsed+'%'}}}}});
+    document.getElementById(cfg.legend).innerHTML=data.map(d=>'<li><i style="background:'+d[2]+'"></i>'+d[0]+'<span>'+d[1]+'%</span></li>').join('');
+  }
+  var tabs=document.querySelectorAll('.q-tab'), panels=document.querySelectorAll('.q-panel');
+  function show(q){
+    tabs.forEach(function(t){var on=t.dataset.q===q;t.classList.toggle('active',on);t.setAttribute('aria-selected',on)});
+    panels.forEach(function(p){
+      var on=p.id===q; p.hidden=!on;
+      if(on){draw(p.dataset.chart);p.querySelectorAll('.reveal').forEach(function(r){r.classList.add('in')})}
+    });
+    try{history.replaceState(null,'','#'+q)}catch(e){}
+  }
+  tabs.forEach(function(t){t.onclick=function(){show(t.dataset.q)}});
+  var h=location.hash.slice(1);
+  show(h==='q4-2025'?'q4-2025':'q2-2026');
 })();
 </script>
 </body>

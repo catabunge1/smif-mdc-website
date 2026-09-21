@@ -225,3 +225,10 @@ footer{background:var(--navy);color:#fff;padding:64px 0 32px}
   .row2{grid-template-columns:1fr}
   .contact-card{padding:28px}
 }
+
+/* quarter switcher */
+.q-tabs{display:flex;gap:10px;margin-bottom:40px}
+.q-tab{font-family:var(--sans);font-size:14px;font-weight:500;letter-spacing:.04em;padding:11px 24px;border:1px solid rgba(255,255,255,.2);border-radius:2px;background:transparent;color:rgba(255,255,255,.7);cursor:pointer;transition:.25s}
+.q-tab:hover{border-color:var(--gold);color:var(--gold)}
+.q-tab.active{background:var(--gold);border-color:var(--gold);color:#22303f}
+.q-panel[hidden]{display:none}
