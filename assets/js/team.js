@@ -11,7 +11,7 @@ var TEAM=[
     {name:"Dennis Favier", role:"Artificial Intelligence", photo:"member-03.jpg", li:"https://www.linkedin.com/in/dennis-favier-8337973b7/"},
     {name:"Felipe Varallo", role:"Macroeconomic", photo:"member-11.jpg", li:"https://www.linkedin.com/in/felipe-salles-varallo/"},
     {name:"Joaquin Blanco", role:"Real Estate", photo:"member-07.jpg", li:"https://www.linkedin.com/in/joaquin-blanco-0360a1410/"},
-    {name:"Noe TouBoul", role:"Financial Services", photo:"member-09.jpg", li:"https://www.linkedin.com/in/noetouboul/"},
+    {name:"Noe TouBoul", role:"Technology", photo:"member-09.jpg", li:"https://www.linkedin.com/in/noetouboul/"},
     {name:"Osiris Guerra", role:"Senior Technology", photo:"member-05.jpg", li:"https://www.linkedin.com/in/osiris-guerra-2a58ba165/"},
     {name:"Simon Lancri", role:"Crypto", photo:"member-10.jpg", li:"https://www.linkedin.com/in/simon-lancri-a127b8433/"}
   ]},
